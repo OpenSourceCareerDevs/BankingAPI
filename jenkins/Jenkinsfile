@@ -10,21 +10,12 @@ pipeline{
     }
 
     stages{
-        stage('Initial_cleanup'){
-            steps {
 
-                dir ("${WORKSPACE}"){
-                    deleteDir()
-                }
-                
-            }
-        }
-    
         stage('Unit test'){
             steps{
                 sh 'ls -la'
                 sh 'pwd'
-                sh 'make test'
+                sh 'dotnet test'
             }
         }
     
