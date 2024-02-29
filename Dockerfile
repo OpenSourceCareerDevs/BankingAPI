@@ -8,6 +8,7 @@ RUN dotnet publish -c Release -o out
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS runtime
 WORKDIR /app
+COPY nuget.config .
 COPY --from=build /build/BankingAPIs/out ./
 
 
