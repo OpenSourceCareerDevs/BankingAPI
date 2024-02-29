@@ -1,6 +1,7 @@
 pipeline{
      environment{
         IMG_TAG="${sh(script: 'echo \$GIT_COMMIT | cut -c -7 | tr -d \'[:space:]\' ', returnStdout: true ) }.$BUILD_NUMBER"
+        PP_NAME="bankingAPI"
     }
     agent {
         dockerfile {
@@ -18,44 +19,31 @@ pipeline{
                 
             }
         }
-        stage('Restore packages') {
-            steps {
-                script{
-                    sh "cd backendproj && dotnet restore BankingAPIs"
-                }
-            }
-        }
+    
         stage('Unit test'){
             steps{
-                script{
-                    sh "cd backendproj && dotnet test BankingAPIs/BankingAPIs.Test/ControllerUnitTest"
-                }
-            }
-        }
-
-        stage('Build'){
-            steps{
-                script{
-                    sh "cd backendproj && dotnet build BankingAPIs"
-                }
-            }
-        }
-         stage('Publish'){
-            steps{
-                script{
-                    sh "cd backendproj && dotnet publish BankingAPIs"
-                 }
+                sh 'ls -la'
+                sh 'pwd'
+                sh 'make test'
             }
         }
     
         stage('Build image'){
             steps{
-                script{
-                    sh "cd backendproj && docker build -t lizdockerhub/dotnetapp ."
+             
+                script {
+                    bankingAPIImage = docker.build("$APP_NAME:$IMG_TAG", "-f bankingAPI/Dockerfile .")
                 }
+            
             }
         }
         stage('Push image'){
+          when {
+              anyOf {
+                 branch 'main'
+                 branch 'dev'
+              }
+           }
             steps{
                 script{
                     sh "docker login -u ${env.username} -p ${env.password}"
