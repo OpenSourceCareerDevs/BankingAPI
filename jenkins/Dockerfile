@@ -2,8 +2,10 @@ FROM  mcr.microsoft.com/dotnet/sdk:5.0
 
 ENV WORKING_DIR=/usr/app/src/
 
+
 # ENV PATH="${PATH}:/root/.dotnet/tools:/opt/jdk17/bin"
 ARG dotnet_cli_home_arg=/tmp/
+export PATH="$PATH:/tmp//.dotnet/tools"
 ENV DOTNET_CLI_HOME=$dotnet_cli_home_arg
 
 
