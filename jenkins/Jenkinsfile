@@ -1,7 +1,7 @@
 pipeline{
      environment{
         IMG_TAG="${sh(script: 'echo \$GIT_COMMIT | cut -c -7 | tr -d \'[:space:]\' ', returnStdout: true ) }.$BUILD_NUMBER"
-        PP_NAME="bankingAPI"
+        APP_NAME="bankingAPI"
     }
     agent {
         dockerfile {
