@@ -15,7 +15,7 @@ pipeline{
             steps{
                 sh 'ls -la'
                 sh 'pwd'
-                sh 'dotnet test'
+                sh 'dotnet test BankingAPI/BankingAPIs.Test/BankingAPIs.Test.csproj'
             }
         }
     
