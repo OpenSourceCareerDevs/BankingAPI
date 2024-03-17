@@ -25,7 +25,7 @@ pipeline{
             steps{
              
                 script {
-                    bankingAPIImage = docker.build("$APP_NAME:$IMG_TAG", "-f bankingAPI/Dockerfile .")
+                    bankingAPIImage = docker.build("$APP_NAME:$IMG_TAG", "-f BankingAPI/Dockerfile .")
                 }
             
             }
