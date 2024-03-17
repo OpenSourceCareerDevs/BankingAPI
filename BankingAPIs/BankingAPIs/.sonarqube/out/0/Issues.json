@@ -1,0 +1,849 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.3.0.0",
+        "fileVersion": "4.3.0-3.22465.2 (7d8de40e)",
+        "semanticVersion": "4.3.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'CustomerAccounts' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/DATA/DataBank.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/DATA/DataBank.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 39,
+                  "endLine": 19,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Logins' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/DATA/DataBank.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/DATA/DataBank.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 29,
+                  "endLine": 20,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'AdminLogins' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/DATA/DataBank.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/DATA/DataBank.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 34,
+                  "endLine": 21,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'SignUps' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/DATA/DataBank.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/DATA/DataBank.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 30,
+                  "endLine": 22,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Transcations' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/DATA/DataBank.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/DATA/DataBank.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 35,
+                  "endLine": 23,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'SourceAccount' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/Transcation.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 16,
+                  "endLine": 25,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/Transcation.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'DestinationAccount' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/Transcation.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 16,
+                  "endLine": 25,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/Transcation.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'FristName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/SignUp.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/SignUp.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'LastName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/SignUp.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/SignUp.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'PhoneNumber' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/SignUp.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/SignUp.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/SignUp.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 23,
+                  "endLine": 19,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/SignUp.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 23,
+                  "endLine": 19,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Password' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/SignUp.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 23,
+                  "endLine": 22,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/SignUp.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 23,
+                  "endLine": 22,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'ConfirmPassword' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/SignUp.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 23,
+                  "endLine": 26,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/SignUp.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 23,
+                  "endLine": 26,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/Login.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/Login.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Password' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/Login.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/Login.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'FristName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/CustomerAccount.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/CustomerAccount.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'LastName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/CustomerAccount.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/CustomerAccount.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'PhoneNumber' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/CustomerAccount.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/CustomerAccount.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/CustomerAccount.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/CustomerAccount.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Password' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/CustomerAccount.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/CustomerAccount.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'AccountGenerated' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/CustomerAccount.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/CustomerAccount.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 23,
+                  "endLine": 18,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'FullName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/AdminLogin.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/AdminLogin.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/AdminLogin.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/AdminLogin.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Password' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/AdminLogin.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jlopez/source/repos/backendproj/BankingAPIs/BankingAPIs/ModelClass/AdminLogin.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

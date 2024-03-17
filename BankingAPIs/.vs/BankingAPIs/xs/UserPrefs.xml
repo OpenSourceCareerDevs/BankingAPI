@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{B2351A78-9F51-47F7-A95C-711552C9DBCE}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jlopez/Desktop/backendproj2/BankingAPIs/BankingAPIs/Controllers/SignUpController.cs" relfile="BankingAPIs/Controllers/SignUpController.cs" line="24" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BankingAPIs/Properties/launchSettings.json">
+    <Files>
+      <File FileName="BankingAPIs/Program.cs" />
+      <File FileName="BankingAPIs/Controllers/WeatherForecastController.cs" />
+      <File FileName="BankingAPIs/Controllers/AccountController.cs" />
+      <File FileName="BankingAPIs/Controllers/AdminController.cs" />
+      <File FileName="BankingAPIs/Controllers/SignUpController.cs" Line="22" Column="19" />
+      <File FileName="BankingAPIs/DATA/DataBank.cs" />
+      <File FileName="BankingAPIs/DTOs/AccountDTO.cs" />
+      <File FileName="BankingAPIs/DTOs/LoginDTO.cs" />
+      <File FileName="BankingAPIs/Services/AccountRepo.cs" />
+      <File FileName="BankingAPIs/Services/Signup.cs" />
+      <File FileName="BankingAPIs/appsettings.Development.json" />
+      <File FileName="BankingAPIs/ConnectionString.cs" />
+      <File FileName="BankingAPIs/Properties/launchSettings.json" Line="16" Column="30" />
+      <File FileName="BankingAPIs/ModelClass/SignUp.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BankingAPIs">
+            <Node name="BankingAPIs" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="ModelClass" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BankingAPIs PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

@@ -1,0 +1,12 @@
+{
+  "ServerUri": "https://5e7d-41-58-130-138.eu.ngrok.io",
+  "Organization": null,
+  "ProjectKey": "backendapp",
+  "ProjectName": "backendapp",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AYSk4j7v-3J7qK7rg7Mg",
+      "ProfileTimestamp": "2022-11-23T14:26:41Z"
+    }
+  }
+}
