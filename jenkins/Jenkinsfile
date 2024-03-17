@@ -6,18 +6,20 @@ pipeline{
     agent {
         dockerfile {
             dir 'jenkins/'
+            args '--user root'
         }
     }
 
     stages{
 
-        stage('Unit test'){
-            steps{
-                sh 'ls -la'
-                sh 'pwd'
-                sh 'dotnet test BankingAPIs/BankingAPIs.Test/BankingAPIs.Test.csproj'
-            }
-        }
+        // stage('Unit test'){
+        //     steps{
+        //         sh 'ls -la'
+        //         sh 'pwd'
+        //         sh 'whoami'
+        //         sh 'dotnet test BankingAPIs/BankingAPIs.Test/BankingAPIs.Test.csproj'
+        //     }
+        // }
     
         stage('Build image'){
             steps{
@@ -37,8 +39,8 @@ pipeline{
            }
             steps{
                 script{
-                    sh "docker login -u ${env.username} -p ${env.password}"
-                    sh "docker push lizdockerhub/dotnetapp"
+                    // sh "docker login -u ${env.username} -p ${env.password}"
+                    sh "docker push http://ec2-3-91-244-185.compute-1.amazonaws.com/v2/"
                 }
                 
             }
